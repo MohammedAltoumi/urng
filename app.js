@@ -14,5 +14,5 @@ form.addEventListener('submit', () => {
             arr.push(Math.floor(Math.random() * num + 1))
         }
     }
-    console.log(arr);
+    console.group(arr);
 })
